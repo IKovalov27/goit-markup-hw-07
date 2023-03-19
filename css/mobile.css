@@ -1,0 +1,44 @@
+@media screen and (min-width: 428px) {
+    /*  GLOBAL  */
+    .container {
+        max-width: 428px;
+    }
+
+
+
+
+    /* HEADER  */
+    .mobile-tel {
+        font-size: 36px;
+    }
+
+    .mobile-actions .mobile-item:not(:last-child) {
+        margin-right: 56px;
+    }
+
+    /*  TEAM  */
+    .team-container {
+        padding-left: 82px;
+        padding-right: 82px;
+    }
+
+    /*  HERO */
+    .hero {
+        max-width: 768px;
+        background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/hero-img-tab.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/hero-img-tab2x.jpg);
+        }
+    }
+
+    .hero-title {
+        font-size: 36px;
+
+        margin-bottom: 72px;
+    }
+}

@@ -1,0 +1,173 @@
+@media screen and (min-width: 1200px) {
+    /*  GLOBAL  */
+    .section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .container {
+      max-width: 1158px;
+    }
+
+    .small {
+        padding: 0;
+    }
+
+
+
+    /*  HEADER  */
+    .nav-list {
+        display: flex;
+        margin-left: 76px;
+    }
+
+    .nav-list .item:not(:last-child) {
+        margin-right: 40px;
+    }
+ 
+    .auth-nav {
+        flex-direction: row;
+    }
+
+    .mailto, .tel {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .auth-nav .item + .item {
+        margin-left: 40px;
+    }
+
+    .auth-nav .item:not(:last-child) {
+        margin-bottom: 0px;
+    }
+
+
+    /*  HERO  */
+    .hero-container {
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+
+    .hero-title {
+        margin-bottom: 48px;
+    }
+
+
+    /*  PRIVILEGIOS  */
+    .privilegios-item {
+        width: 264px;
+
+        margin-bottom: 0;
+    }
+
+    .privilegios-item::before {
+        content: "";
+    }
+
+    .privilegios-item .title {
+        margin-top: 8px;
+    
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
+    .privilegios-item .text {
+        margin: 0;
+
+        font-weight: 400;
+    }
+
+
+    /*  OUR SKILLS  */
+    .our-skills {
+        display: block;
+        padding-top: 0;
+    }
+    
+    .skills-list {
+        display: flex;
+    }
+        
+    .skills-list .item:not(:last-child) {
+        margin-right: 24px;
+    }
+        
+    .skill-img {
+        display: block;
+    }
+
+    
+    /* CUSTOMERS  */
+    .customers-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .customers-list {
+        display: flex;
+    }
+
+
+    /*  TEAM  */
+    .team-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .team-list {
+        display: flex;
+        flex-wrap: nowrap;
+
+        row-gap: 0;
+    }
+
+
+    /*  FOOTER  */
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .end {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: nowrap;
+
+        column-gap: 0;
+        row-gap: 0;
+
+        justify-content: center;
+
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .information-footer {
+        align-items: start;
+
+        margin-right: 120px;
+    }
+
+    .form-footer {
+        margin-left: 80px;
+    }
+
+    .subscribe-form  {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+
+        width: auto;
+        gap: 0;
+
+        justify-content: start;
+    }
+
+    .footer-input {
+        margin-right: 24px;
+    }
+
+}
