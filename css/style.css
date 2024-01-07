@@ -814,7 +814,7 @@ ul {
 }
 
 .modal-close {
-    /*display: block;*/
+    display: flex;
     position: absolute;
     top: 24px;
     right: 24px;
