@@ -1,5 +1,7 @@
 /* Global */
 
+
+
 :root {
     --main-text-color: #2E2F42;
     --second-text-color: #434455;
@@ -794,7 +796,8 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
 
-    width: auto;
+    width: 300px;
+
     min-height: 584px;
     padding: 72px 16px 24px 16px;
 
@@ -807,6 +810,7 @@ ul {
 
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -30%) scale(0.85);
+
 }
 
 .modal-close {
@@ -885,7 +889,7 @@ ul {
 }    
 
 .modal-input {
-    width: 360px;
+    width: 268px;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -914,9 +918,11 @@ ul {
 }
 
 .modal-comment {
-    width: 360px;
-    height: 120px;
-    padding: 8px 16px;
+    width: 268px;
+    height: 60px;
+
+
+    padding: 8px 10px;
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -929,6 +935,9 @@ ul {
     letter-spacing: 0.04em;
 
     color: #000000;
+
+
+    font-family: "Roboto", sans-serif;
 }
 
 .modal-comment:focus {
@@ -944,7 +953,8 @@ ul {
     display: flex;
     align-items: center;
 
-    font-size: 12px;
+    font-size: 9px;
+
     line-height: 1.17;
 
     letter-spacing: 0.04em;

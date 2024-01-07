@@ -6,7 +6,6 @@
 
 
 
-
     /* HEADER  */
     .mobile-tel {
         font-size: 36px;
@@ -16,11 +15,13 @@
         margin-right: 56px;
     }
 
+
     /*  TEAM  */
     .team-container {
         padding-left: 82px;
         padding-right: 82px;
     }
+
 
     /*  HERO */
     .hero {
@@ -41,4 +42,25 @@
 
         margin-bottom: 72px;
     }
+
+    /* MODAL */
+    .modal {
+        width: auto;
+    }
+
+    .modal-input {
+        width: 360px;
+    }
+
+    .modal-comment {
+        width: 360px;
+        height: 120px;
+    }
+
+    .checkbox-text {
+        font-size: 12px;
+    }
+    
 }
+
+

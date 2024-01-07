@@ -60,13 +60,13 @@
                 <div>
                     <ul class="mobile-list">
                         <li class="mobile-item">
-                            <a href="./index.html" class="mobile-link active">Studio</a>
+                            <a href="./index.html" class="mobile-link current">Studio</a>
                         </li>
                         <li class="mobile-item">
                             <a href="./portfolio.html" class="mobile-link">Portfolio</a>
                         </li>
                         <li class="mobile-item">
-                            <a href="#" class="mobile-link current">Contacts</a>
+                            <a href="#" class="mobile-link">Contacts</a>
                         </li>
                     </ul>
                 </div>
@@ -477,7 +477,7 @@
 
                 <label class="modal-field">
                     <span class="modal-text">Comment</span>
-                    <textarea class="modal-comment" name="comment" placeholder="Text input"></textarea>
+                    <textarea class="modal-comment" name="comment" placeholder="Your comment:"></textarea>
                 </label>
 
                 <div class="modal-field">
@@ -497,13 +497,14 @@
         </div>
     </div>
 
+
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" crossorigin="anonymous"></script>
 
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
 
-    <!-- Script for modal respons -->
-    <script>
+    Script for modal respons
+    <!-- <script>
         ( () => {
             document
                 .querySelector(".js-speaker-form")
@@ -515,7 +516,24 @@
                     );
                 });
         })();
-    </script>
+    </script> -->
+
+
+    <script>
+        window.onresize = function() {
+           var modalContainer = document.getElementsByClassName("modal-container")[0];
+           modalContainer.style.height = window.innerHeight + "px";
+           modalContainer.style.width = window.innerWidth + "px";
+        }
+        function showModal(){
+           var modalContainer = document.getElementsByClassName("modal-container")[0];
+           modalContainer.style.display = "flex";
+        }
+        function hideModal(){
+           var modalContainer = document.getElementsByClassName("modal-container")[0];
+           modalContainer.style.display = "none";
+        }
+     </script>
 </body>
 </html>
 
