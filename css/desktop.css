@@ -151,6 +151,10 @@
         margin-right: 120px;
     }
 
+    .footer .text {
+        max-width: unset;
+    }
+
     .form-footer {
         margin-left: 80px;
     }
@@ -168,6 +172,42 @@
 
     .footer-input {
         margin-right: 24px;
+    }
+
+
+
+    /* PORTFOLIO */
+    .portfolio {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+
+    .filter-list {
+        margin-bottom: 72px;
+    }
+
+    .project {
+        height: 420px;
+        width: 360px;
+    
+        margin-right: 24px;
+        margin-bottom: 48px;
+    }
+    
+    .project:nth-child(2n) {
+        margin-right: 24px;
+    }
+
+    .project:nth-child(3n) {
+        margin-right: 0;
+    }
+    
+    .overlay-img {
+        width: 360px;
+    }
+
+    .project:nth-last-child(-n+3) {
+        margin-bottom: 0px;
     }
 
 }

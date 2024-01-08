@@ -206,4 +206,37 @@
         width: 408px;
         padding: 72px 24px 24px 24px;
     }
+
+    
+    /* PORTFOLIO */
+    .portfolio {
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+
+    .filter-list {
+        margin-bottom: 64px;
+    }
+
+    .filter {
+        padding: 12px 24px;
+
+        font-size: 16px;
+    }
+
+    .project {
+        width: 356px;
+
+        margin-right: 24px;
+        margin-bottom: 48px;
+    }
+
+    .project:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .overlay-img {
+        width: 356px;
+    }
+
 }

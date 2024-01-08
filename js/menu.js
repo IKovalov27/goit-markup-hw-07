@@ -15,6 +15,11 @@
     bodyScrollLock[scrollLockMethod](document.body);
   };
 
+  const anchorLinks = document.querySelectorAll('.scrollto');
+  anchorLinks.forEach(link => {
+    link.addEventListener('click', toggleMenu);
+  });
+
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
 

@@ -1,7 +1,4 @@
 /* Global */
-
-
-
 :root {
     --main-text-color: #2E2F42;
     --second-text-color: #434455;
@@ -629,7 +626,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: 264px;
+    max-width: 264px;
 }
 
 

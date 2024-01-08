@@ -5,7 +5,6 @@
     }
 
 
-
     /* HEADER  */
     .mobile-tel {
         font-size: 36px;
@@ -60,7 +59,22 @@
     .checkbox-text {
         font-size: 12px;
     }
+
+
+    /* PORTFOLIO */
+    .project {
+        max-width: unset;
+        width: 360px;
+    }
     
+    .project-title {
+        font-size: 20px;
+    }
+
+    .project-text {
+        font-size: 16px;
+    }
+
 }
 
 
