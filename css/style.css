@@ -182,7 +182,7 @@ ul {
 .mobile-navigation {
     display: flex;
 
-    height: 100%;
+    height: 87%;
 
     flex-direction: column;
     justify-content: space-between;
